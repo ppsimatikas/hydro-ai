@@ -1,0 +1,63 @@
+.home {
+    height: 100%;
+
+    .App-logo {
+      height: 30vmin;
+      pointer-events: none;
+    }
+
+    .welcome {
+      text-align: center;
+      padding: 0 20px;
+
+      h1, p {
+        span {
+            color: #2C9CEC;
+        }
+      }
+
+      p, .sui-logo {
+        display: inline-block;
+        vertical-align: sub;
+      }
+
+      .sui-logo {
+        height: 25px;
+      }
+    }
+
+    .messages {
+        height: 100%;
+        width: 100%;
+        flex-grow: 1; /* Take available space */
+        overflow-y: auto; /* Enable vertical scrolling */
+        display: flex;
+        flex-direction: column-reverse; /* Items grow from bottom to top */
+    }
+
+    .message {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 20px;
+        display: flex;  /* Aligns children side by side */
+        align-items: flex-start;
+    }
+
+    .micon {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+        border-radius: 50px;
+    }
+
+    .mp {
+        font-size: 20px;
+        margin: 0;
+        flex: 1;
+        line-height: 35px;
+
+        p {
+            margin: 0;
+        }
+    }
+}

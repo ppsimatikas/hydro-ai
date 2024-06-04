@@ -1,0 +1,19 @@
+.header {
+    background-color: #263451;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+
+    img, a {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0;
+        margin-right: 20px;
+    }
+
+    img {
+        width: 150px;
+        height: 50px;
+    }
+}

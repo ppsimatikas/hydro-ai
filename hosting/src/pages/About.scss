@@ -1,0 +1,112 @@
+.about {
+    .App-logo {
+      height: 30vmin;
+      pointer-events: none;
+    }
+
+    .welcome {
+      text-align: center;
+      h1 {
+        span {
+            color: #2C9CEC;
+        }
+      }
+    }
+
+    .about {
+        color: black;
+        padding: 60px 20px;
+        background-color: #e9f5fa;
+        background-image: url(../../public/bg1.png);
+        background-position-y: -40px;
+        background-position-x: 100%;
+        background-size: 450px;
+        background-repeat: no-repeat;
+
+        .about-content {
+            max-width: 600px;
+            margin: auto;
+
+            h4 {
+                margin: 0;
+                margin-bottom: 20px;
+
+                span {
+                    color: #2C9CEC;
+                }
+            }
+
+            p {
+                margin: 0;
+                font-size: 18px;
+                line-height: 27px;
+            }
+        }
+    }
+
+    .team {
+        text-align: center;
+        padding: 10px 20px;
+        background: linear-gradient(203deg, rgba(118,141,183,1) 0%, rgba(26,38,65,1) 82%);
+        background-image: url(../../public/bg2.png);
+        background-position-y: 100%;
+        background-size: 150px;
+        background-repeat: no-repeat;
+
+        h3 {
+            margin: 30px 0px 0px 0px;
+        }
+
+        .team-member {
+            background-color: #fff;
+            color: #000;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 30px;
+            padding: 25px;
+
+            img, .details {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            img {
+                width: 100px;
+                height: 100px;
+                border-radius: 100px;
+                border: 1px solid grey;
+            }
+
+            .details {
+                text-align: left;
+                margin-left: 15px;
+                h5 {
+                    margin: 10px 0;
+                }
+
+                p {
+                    margin: 10px 0;
+                    font-size: 16px;
+                    color: gray;
+                }
+            }
+        }
+    }
+
+    .powered {
+        background-color: #fff;
+        padding: 10px;
+        color: black;
+        text-align: center;
+
+        p {
+            margin: 15px;
+        }
+
+        img {
+            display: inline-block;
+            height: 50px;
+            margin: 20px 50px;
+        }
+    }
+}
